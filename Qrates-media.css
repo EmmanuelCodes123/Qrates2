@@ -1,0 +1,115 @@
+@media only screen and (width <= 902px) and (width >= 520px){
+    .wrapper{
+        overflow-x: scroll;
+        padding-inline: 1.5rem;
+    }
+    .third-section{
+        flex-direction: column;
+    }
+    .third-section-left{
+        width: 100%;
+        
+    }
+    .third-section-left img{
+        width: 50%;
+    }
+    .third-section-right {
+        width: 100%;
+        
+    }
+    .third-section-right table{
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 2rem
+    }
+}
+@media only screen and (width <= 629px) and (width >= 520px) {
+    .remove1{
+        display: none
+    }
+    .aside{
+        flex-direction: column;
+    }
+    .aside-left, .aside div:nth-child(2){
+        width: 100%
+    }
+    .testimonials{
+        flex-direction: column;
+
+    }
+    .testimonials-left, .testimonials-right{
+        width: 100%;
+    }
+    .testimonials-left h2{
+        font-size: 3rem;
+    }
+} 
+@media only screen and (width <= 520px){
+    .links{
+        display: none;
+    }
+    .remove{
+        display: none;
+    }
+    .hero-section-left{
+        width: 100%;
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+    }
+    .hero-section-left h2{
+        font-size: 7rem;
+        text-align: center;
+        color: white;
+    }
+    .hero-section-right{
+        display: none
+    }
+    .second-section-avatar{
+        flex-direction: column;
+    }
+    .second-section-avatar-left, .second-section-avatar-right{
+        width: 100%;
+    }
+    .third-section{
+        flex-direction: column;
+        
+    }
+    .third-section-right{
+        margin-top: 2rem
+    }
+    .third-section-left, .third-section-right{
+        width: 100%
+    }
+    .third-section-left img{
+        width: 100%;
+    }
+    .aside{
+        flex-direction: column;
+    }
+    .aside-left, .aside div:nth-child(2){
+        width: 100%
+    }
+    .testimonials{
+        display: none
+    }
+    .footer-top{
+        flex-direction: column;
+    }
+    .footer-bottom{
+        flex-direction: column;
+    }
+    .qr-logo{
+        width: 100%;
+    }
+    .wrapper{
+        max-width: 100%;
+        margin-inline: 1rem;
+    }
+    
+
+}
+
+
